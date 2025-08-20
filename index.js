@@ -37,7 +37,7 @@ const TOOLS_MAP = {
 }
 
 
-const genAI = new GoogleGenerativeAI("YOUR-GEMINI_API-KEY");
+const genAI = new GoogleGenerativeAI("GEMINI-API-KEY");
 
 const SYSTEM_PROMPT = `
 You are an help full ai assistant that helps to solve user query.
@@ -101,7 +101,7 @@ Important-
     - Use writeInFile function to write into any file
 `
 
-const userQuery = `I am wanting to make calculator application using html ,css and js . It should perform basic arithmatic operations , there should be complete logic in it give all this in Calculator folder`;
+const userQuery = `I am wanting to make calculator application using html ,css and js . It should perform basic arithmatic operations , there should be complete logic in it give all this in Calculator folder also make it UI good`;
 
 const messages = [
     {
